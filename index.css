@@ -1,0 +1,39 @@
+
+#title{
+    text-align: center;
+}
+/*skillBAR*/
+* {box-sizing: border-box}
+#status{
+    padding-left: 10px;
+}
+
+.container {
+    width: 15%;
+    background-color: #ddd;
+    border-radius: 5px;
+
+}
+
+.cat {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.hapiness{width: 80%; background-color: #04AA6D;}
+.hunger {width: 80%; background-color: #2196F3;}
+.lonliness{width: 85%; background-color: #f44336;}
+.tiredness{width: 80%; background-color: #808080;}
+
+/*BUTTON INTERACTION*/
+#intercation{
+    display: block;
+    position: relative;
+    left: 80%;
+    height: 30%;
+    width: 15%;
+}
