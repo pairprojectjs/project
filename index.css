@@ -6,6 +6,7 @@
 * {box-sizing: border-box}
 #status{
     padding-left: 10px;
+    width: 40%;
 }
 
 .container {
@@ -31,9 +32,16 @@
 
 /*BUTTON INTERACTION*/
 #intercation{
-    display: block;
+    display: inline-block;
+    vertical-align: top;
     position: relative;
     left: 80%;
     height: 30%;
     width: 15%;
+}
+#catt{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

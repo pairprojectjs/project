@@ -28,6 +28,24 @@ $("#hapiness").css("width",x.happiness*10+"%")
 $("#hungre").css("width",x.hunger*10+"%")
 $("#lonliness").css("width",x.lonliness*10+"%")
 $("#tirednes").css("width",x.tiredness*10+"%")
+// change the img
+var img1="img/feedit.gif"
+var img2="img/aftersleep.gif"
+var img3="img/fullsleepandfeed.gif"
+var img4="img/happnesafterlon.gif"
+var img5="img/pat.gif"
+var img6="img/wanttoeat.gif"
+var img7="img//wanttoplay.gif"
+var img8="img/wanttosleep.gif"
+var img9="img/happycat.gif"
+function whatImgesWillDisPlayFirst(){
+	if(x.hunger>7){
+		document.getElementById('catt').src=img6	}
+	else if(x.happiness>7){
+		document.getElementById('catt').src=img9
+	}
+}
+whatImgesWillDisPlayFirst()
 var feed=function(){
 	if (this.hunger>7){
          $('#catt').append('src="img/wanttoeat.gif" />')}
