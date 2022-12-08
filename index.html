@@ -10,7 +10,7 @@
 </head>
 <body>
     <h1 id="title">Let's take care of me!! </h1>
-
+<div id="p">
     <div id="status">
         <p>Hapiness</p>
         <div class="container">
@@ -32,16 +32,39 @@
     
     </div>
     <div id="intercation" >
-        <button class="button" id="feed">Feed</button>
-        <button class="button" id="sleep">Sleep</button>
-        <button class="button" id="peet">Pet</button>
+        <button class="button" id="feed" onclick="playAudio1()">Feed</button>
+        <button class="button" id="sleep" onclick="playAudio2()">Sleep</button>
+        <button class="button" id="peet" onclick="playAudio3()">Pet</button>
     </div>
+ </div>
 <footer>
     <h2 class="geton"></h2>
     <div class="stat">
 
     </div>
 </footer>
-    
+<audio id="f">
+    <source  src="img/meow.wav" type="audio/ogg">
+</audio>
+<audio id="s">
+    <source  src="img/sleep.mp3" type="audio/ogg">
+</audio>
+<audio id="pe">
+    <source  src="img/PET.mp3" type="audio/ogg">
+  </audio>
+    <script>
+var x = document.getElementById("f");  
+    function playAudio1() { 
+        x.play(); 
+    } 
+var y= document.getElementById("s");  
+    function playAudio2() { 
+        y.play(); 
+    } 
+var z = document.getElementById("pe");  
+    function playAudio3() { 
+        z.play(); 
+    } 
+    </script>
 </body>
 </html>
