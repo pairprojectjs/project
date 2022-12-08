@@ -4,24 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="main.js"></script>
     <title>Cat Game</title>
+    
 </head>
 <body>
-    <h1>congratulation on Your first cat !!   </h1>
-    <h2>status</h2>
     <div id="status">
-        <div class="happiness"></div>
-        <div class="hunger"></div>
-        <div class="lonliness"></div>
-        <div class="tiredness"></div>
-    </div>
-    <div id="catimg">
-        <img src="" alt="" srcset="">
-    </div>
+        <p>Hapiness</p>
+        <div class="container">
+        <div id="hapiness" class="cat hapiness">80%</div>
+        </div>  
+        <p>Hunger</p>
+        <div class="container">
+        <div id="hungre" class="cat hunger">80%</div>
+        </div>
+        <p>Lonliness</p>
+        <div class="container">
+        <div id="lonliness" class="cat lonliness">80%</div>
+        </div>
+        <p>Tiredness</p>
+        <div class="container">
+        <div id="tirednes" class="cat tiredness">80%</div>
+        </div>
+        <img id="catt" src="img/aftersleep.gif" alt="" srcset="">    
+              
+</div>
     <div id="intercation" >
-        <button class="feed">feed</button>
-        <button class="sleep">sleep</button>
-        <button class="peet">peet</button>
+        <button class="button" id="feed">Feed</button>
+        <button class="button" id="sleep">Sleep</button>
+        <button class="button" id="peet">Pet</button>
     </div>
 <footer>
     <h2 class="geton"></h2>

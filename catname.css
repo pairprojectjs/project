@@ -1,0 +1,41 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/7e/43/f4/7e43f4d51873fd7545cf30ab1a0bbe12.png);
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 30px;
+}
+.name{
+    padding-top: 60px;
+    text-align: center;
+    font-family:Arial;
+    font-style: oblique;
+    font-weight: bolder;
+    text-shadow: 5px 5px 10px rgb(80, 49, 49);
+}
+#catname{
+    height: 40px; 
+    align-items: center;
+    width: 20%;
+    border: 2px solid rgb(107, 80, 80);
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.name button{
+    color:white;
+    background-color:rgb(206, 65, 89);
+    font-size: larger;
+    border: 2px solid;
+    border-radius: 10px;
+    width: 100px;
+    height: 42px; 
+    border-color: rgb(180, 174, 174);;
+}
+button:hover{
+    box-shadow: 10px 10px 20px 10px grey;
+    cursor: pointer;
+}

@@ -1,0 +1,60 @@
+
+body{
+    background-image: url(https://cdn.vectorstock.com/i/1000x1000/96/18/paw-seamless-pattern-vector-24479618.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#title{
+    text-align: center;
+    font-size: 40px ;
+    font-family: 'Lucida Sans';
+    font-style: oblique;
+    font-weight: bolder;
+    padding-top: 30px;
+    text-shadow: 5px 5px 10px rgb(182, 38, 38);
+    color: #f32112;
+
+}
+/*skillBAR*/
+* {box-sizing: border-box}
+#status{
+    padding-left: 10px;
+
+}
+
+p{
+    font-size: large;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Lucida Sans';
+}
+.container {
+    width: 15%;
+    background-color: #ddd;
+    border-radius: 10px;
+    border-color:  rgb(104, 97, 97);
+    border-style:solid;
+
+}
+.container:hover{
+    box-shadow: 10px 10px 20px 10px grey;
+    cursor: pointer;
+}
+
+.cat {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.hapiness{width: 80%; background-color: #04AA6D;}
+.hunger {width: 80%; background-color: #2196F3;}
+.lonliness{width: 85%; background-color: #f44336;}
+.tiredness{width: 80%; background-color: #808080;}
+
+/*BUTTON INTERACTION*/
