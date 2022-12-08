@@ -1,0 +1,39 @@
+body{
+    background-image: url(https://en.pimg.jp/058/880/738/1/58880738.jpg);
+    background-position: top top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    padding-top: 10px;
+}
+.name{
+    padding-top: 20px;
+    text-align: center;
+    font-family:Arial;
+    font-style: oblique;
+    font-weight: bolder;
+    text-shadow: 5px 5px 10px rgb(80, 49, 49);
+}
+.name button{
+    color:rgb(196, 167, 167);
+    background-color:rgb(230, 170, 180);
+    font-size: larger;
+    border: 2px solid;
+    border-radius: 10px;
+    width: 150px;
+    height: 42px; 
+
+}
+button:hover{
+    box-shadow: 20px 20px 50px 15px grey;;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    font-family:Arial;
+    font-style: oblique;
+    font-weight: bolder;
+    color:rgb(104, 100, 100);
+}
