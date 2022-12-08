@@ -58,26 +58,3 @@ p{
 .tiredness{width: 80%; background-color: #808080;}
 
 /*BUTTON INTERACTION*/
-#interaction{
-    position: absolute;
-    left: 80%;
-transform: translate(-50%,-50%);
-}
-button{
-    font-weight: bold;
-    font-family:  Helvetica;
-    font-style:oblique ;
-    font-size:large;
-    left: 50%;
-    border-radius: 10px;
-    width: 150px;
-    height: 50px;
-    margin-left:1150px ;
-    margin-top: 50px;
-    transform: translate(-50%,-50%);
-
-}
-button:hover{
-    box-shadow: 10px 10px 20px 10px grey;
-    cursor: pointer;
-}
