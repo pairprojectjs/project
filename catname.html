@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="catname.css">
+    <title>Cat Game</title>
+</head>
+<body>
+    <div class="name">
+    <h1>GIVE YOUR CAT A NAME</h1>
+    <form>
+    <input type="text"  id="catname" placeholder="Cat name">
+    <button onclick="playAudio()" type="button">Submit</button>
+    </form>
+</div>
+
+<audio id="myAudio">
+    <source src="img/meow.wav" type="audio/ogg">
+  </audio>
+  <script>
+    var x = document.getElementById("myAudio");  
+    function playAudio() { 
+      x.play(); 
+    } 
+    
+    </script>
+</body>
+</html>
