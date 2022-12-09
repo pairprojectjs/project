@@ -13,15 +13,26 @@ $(document).ready(function() {
 	 cat.feed=function(){
 		if(this.hunger<=2){
 			this.hunger=0
-			$(".geton").append(this.name+" is full")
+			$(".geton").append(this.name+" is full ")
 		}
-		else if(this.hunger===10){
+		else if(this.hunger===11){
 			this.hunger=10
+			this.happiness=4
 			
 		}
+	
 	else {
-		this.happiness++
+		
 			this.hunger-=3
+			this.happiness++
+	}
+	if(this.happiness===10){
+		$(".geton").append(this.name+" is happy ")
+		this.hunger=10
+	}
+	else if(this.happiness<=2){
+		this.happiness=0
+		$(".geton").append(this.name+" is sad ")
 	}
 
 	}
@@ -30,10 +41,12 @@ $(document).ready(function() {
 		if(this.hunger<=0){
 			this.hunger=0
 		}
-		else if(this.lonliness>9){
-			$(".geton").append(this.name+" want's to play with you")
+		else if(this.lonliness>7){
+			$(".geton").append(this.name+" want's to play with you ")
+			this.happiness=3    
 			this.lonliness=10
 		}
+		
 
 		else{
 		this.hunger++
@@ -41,16 +54,27 @@ $(document).ready(function() {
 		this.lonliness++
 		this.tiredness--
 		}
+		if(this.happiness===10){
+			$(".geton").append(this.name+" is happy ")
+			this.hunger=10
+		}
+		else if(this.happiness<=2){
+			this.happiness=0
+			$(".geton").append(this.name+" is sad ")
+		}
 	}
 	 cat.petting=function(){
-		if(this.tiredness>6){	
-			$(".geton").append(this.name+" want's to sleep")
+		if(this.tiredness>8){	
+			$(".geton").append(this.name+" want's to sleep ")
+			this.happiness=3
+
 			
 		}
 		else if(this.lonliness<2){	
 			this.lonliness=0
 			
 		}
+		
 		
 		else{
 
@@ -59,6 +83,7 @@ $(document).ready(function() {
 		this.tiredness++
 		this.hunger++
 	}
+
 	}
 	return cat 
 }
