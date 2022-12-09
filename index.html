@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="main.js"></script>
+    <script src="main.js">
+    </script>
     <title>Cat Game</title>
     
 </head>
 <body>
+    <h2 id="title">Let's Take Care of Mimi </h2>
+    <div id="pi">
     <div id="status">
         <p>Hapiness</p>
         <div class="container">
@@ -31,17 +34,40 @@
         <img id="catt" src="img/aftersleep.gif" alt="" srcset="">    
               
 </div>
-    <div id="intercation" >
-        <button class="button" id="feed">Feed</button>
-        <button class="button" id="sleep">Sleep</button>
-        <button class="button" id="peet">Pet</button>
+
+    <div id="intercation" class="inter">
+        <button onclick="playAudio1()" class="button" id="feed">Feed</button>
+        <button onclick="playAudio2()" class="button" id="sleep">Sleep</button>
+        <button onclick="playAudio3()" class="button" id="peet">Pet</button>
     </div>
 <footer>
-    <h2 class="geton"></h2>
-    <div class="stat">
-
-    </div>
+</div>
+    <h3 class="geton"></h3>
 </footer>
+<audio id="f">
+    <source  src="img/meow.wav" type="audio/ogg">
+</audio>
+<audio id="s">
+    <source  src="img/sleep.mp3" type="audio/ogg">
+</audio>
+<audio id="pe">
+    <source  src="img/PET.mp3" type="audio/ogg">
+  </audio>
+<script>
+    	var v = document.getElementById("f");  
+    function playAudio1() { 
+        v.play(); 
+    } 
+var y= document.getElementById("s");  
+    function playAudio2() { 
+        y.play(); 
+    } 
+var z = document.getElementById("pe");  
+    function playAudio3() { 
+        z.play(); 
+    } 
+</script>
+
     
 </body>
 </html>

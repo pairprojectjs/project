@@ -1,42 +1,38 @@
-
 body{
-    background-image: url(https://cdn.vectorstock.com/i/1000x1000/96/18/paw-seamless-pattern-vector-24479618.webp);
+    background-image: url(img/paw-seamless-pattern-vector-24479618.PNG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    width: 100%;
+    height: 100%;
+}
+h2{
+    text-align: center;
+    font-size: 40px ;
+    font-family: Arial;
+    font-style: oblique;
+    font-weight: bolder;
+    padding-top: 20px;
+    text-shadow: 5px 5px 10px rgb(80, 49, 49);
+    color: #CC1508;
 }
 #title{
     text-align: center;
-    font-size: 40px ;
-    font-family: 'Lucida Sans';
-    font-style: oblique;
-    font-weight: bolder;
-    padding-top: 30px;
-    text-shadow: 5px 5px 10px rgb(182, 38, 38);
-    color: #f32112;
-
 }
 /*skillBAR*/
 * {box-sizing: border-box}
 #status{
     padding-left: 10px;
-
+    width: 40%;
 }
 
-p{
-    font-size: large;
-    font-weight: bold;
-    font-style: oblique;
-    font-family: 'Lucida Sans';
-}
 .container {
-    width: 15%;
+    width: 40%;
     background-color: #ddd;
     border-radius: 10px;
     border-color:  rgb(104, 97, 97);
     border-style:solid;
-
 }
 .container:hover{
     box-shadow: 10px 10px 20px 10px grey;
@@ -58,3 +54,52 @@ p{
 .tiredness{width: 80%; background-color: #808080;}
 
 /*BUTTON INTERACTION*/
+#intercation{
+    margin-top: 100px;
+    margin-left: 300px;
+}
+#catt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button{
+    font-weight: bold;
+    font-family:  Helvetica;
+    font-style:oblique ;
+    font-size:large;
+    border-radius: 10px;
+    position: relative;
+    width: 150px;
+    height: 50px;
+    margin-left: 80%;
+    margin-top: 50px;
+    transform: translate(-50%, -50%);
+
+}
+button:hover{
+    box-shadow: 10px 10px 20px 10px grey;
+    cursor: pointer;
+}
+.geton{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+}
+#catt{
+    top: 300px;
+    width: 300px;
+    height: 300px;
+    
+}
+#pi{
+    display: flex;
+}
+p{
+    font-size: large;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Lucida Sans';
+}
+
